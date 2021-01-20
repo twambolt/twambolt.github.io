@@ -4,6 +4,8 @@
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	Editted by Terry Wambolt
 */
 
 html, body, div, span, applet, object,
@@ -98,7 +100,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #002a29;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2552,7 +2554,8 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					/* color: #b74e91; */
+					color: #007a79;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -3022,7 +3025,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: #007a79;
 				content: '';
 				display: block;
 				height: 100%;
@@ -3236,19 +3239,21 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #002a2996;
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			/* background-color: #5e42a6; */
+			background-color: #007a79;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #002a2996;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			/* background-color: #5052b5; */
+			background-color: #976f4f;
 		}
 
 		.wrapper.style2-alt {
@@ -3256,7 +3261,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			/* background-color: #b74e91; */
+			background-color: #4d2a16;
 		}
 
 		.wrapper.style3-alt {
@@ -3524,7 +3530,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #002a29;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3761,14 +3767,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #c7cedf77;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #4d2a16, #c7cedf);
+				background-image: -webkit-linear-gradient(to right, #4d2a16, #c7cedf);
+				background-image: -ms-linear-gradient(to right, #4d2a16, #c7cedf);
+				background-image: linear-gradient(to right, #4d2a16, #c7cedf);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
