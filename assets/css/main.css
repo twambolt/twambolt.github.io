@@ -2492,6 +2492,10 @@ input, select, textarea {
 		position: relative;
 	}
 
+		.icon.brands{
+			font-size: 1.75em;
+		}
+
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
