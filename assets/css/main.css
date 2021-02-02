@@ -2564,6 +2564,7 @@ input, select, textarea {
 
 				.wrapper.style3-alt .icon.major:before {
 					color: #953d75;
+					/* color: #976f4f; */
 				}
 
 /* Image */
@@ -2620,6 +2621,12 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.project {
+			margin-left: auto;
+  		margin-right: auto;
+			width: 60%;
+    	height: auto;
+		}
 /* List */
 
 	ol {
@@ -3874,7 +3881,8 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #976f4f;
+							/* background-color: #b74e91; */
 						}
 
 		}
