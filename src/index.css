@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-code-bg: var(--code-bg);
+}
+
+:root {
+  --paper: #fdfdfb;
+  --ink: #21231f;
+  --muted: #5f655f;
+  --line: #e5e5dd;
+  --accent: #1f6f43;
+  --accent-ink: #14532d;
+  --code-bg: #f4f4ec;
+}
+
+.dark {
+  --paper: #141613;
+  --ink: #e7e7e0;
+  --muted: #9ba19a;
+  --line: #2b2e29;
+  --accent: #58b380;
+  --accent-ink: #86d9a8;
+  --code-bg: #1c1f1b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-ink font-sans antialiased;
+}
+
+::selection {
+  background-color: color-mix(in srgb, var(--accent) 25%, transparent);
+}
